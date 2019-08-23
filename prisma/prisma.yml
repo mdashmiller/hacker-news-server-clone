@@ -1,7 +1,5 @@
 # HTTP endpoint for Prisma API
-#endpoint: ''
-endpoint: https://us1.prisma.sh/mrobertmiller-865a90/node-tut/dev
-
+endpoint: ${env:DB_URI}
 
 # points to the file that contains datamodel
 datamodel: datamodel.prisma
